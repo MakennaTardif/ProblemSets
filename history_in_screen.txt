@@ -1,0 +1,497 @@
+    1  wsl
+    2  ls
+    3  pwd
+    4  cd ../
+    5  pwd
+    6  ls
+    7  man ls
+    8  cd ../
+    9  ls
+   10  cd ../
+   11  ls
+   12  ls -a
+   13  ls -G
+   14  ls -t
+   15  ls -lrt
+   16  ls -a
+   17  cd ~/pwd
+   18  cd~/ pwd
+   19  c d ~/ pwd
+   20  cd ~/pwd
+   21  cd ~/
+   22  pwd
+   23  cd ~/
+   24  cd /
+   25  pwd
+   26  ls
+   27  cd home
+   28  cd /
+   29  pwd
+   30  ls
+   31  cd home/
+   32  ls
+   33  cd /
+   34  cd home/tinne
+   35  cd D
+   36  cd /home/tinne
+   37  cd ./home/
+   38  cd ./tinne/
+   39  pwd
+   40  cd ./
+   41  pwd
+   42  cd ./home/
+   43  pdw
+   44  pwd
+   45  cd ./home/tinne
+   46  cd ~/
+   47  mkdir ClassFiles
+   48  ls -l
+   49  ls -lrt
+   50  touch tmp.txt
+   51  ls -l
+   52  vi tmp.txt 
+   53  cp tmp.txt tmp2.txt
+   54  cp tmp.txt tmp3.txt
+   55  cp tmp.txt tmpNew.txt
+   56  ls -lrt
+   57  mkdir replicas
+   58  mv tmp2.txt replicas
+   59  ls *.txt
+   60  ls * t?p.txt
+   61  cd replicas
+   62  cd ./replicas
+   63  ls
+   64  ls * .txt
+   65  rm tmp3.txt
+   66  pwd
+   67  ls /pwd
+   68  ls -l
+   69  clear
+   70  cd~/pwd
+   71  cd ~/pwd
+   72  clear
+   73  pwd
+   74  cd ../
+   75  pwd
+   76  clear
+   77  pwd
+   78  cd ../
+   79  /mnt/c/Userds/tinnee/Downloads
+   80  /mnt/c/Users/tinne/Downloads
+   81  mv *.pdb ~/ClassFiles/
+   82  mv *.pdb ~/ClassFiles/replicas?
+   83  mv *.pdb ~/ClassFiles/replicas/
+   84  cd /home
+   85  ls
+   86  mkdir ClassFiles/replicas
+   87  /mnt/c/Users/tinne/Downloads
+   88  mv* .pdb ~/ClassFiles/
+   89  mv * .pdb ~ClassFiles/
+   90  mv * .pdb ~/ClassFiles/
+   91  mv *.pdb ~/ClassFiles/
+   92  ls *.pdb
+   93  mv ~/home/*.pdb /Downloads
+   94  cd /mnt/c/Users/tinne/Downloads/
+   95  ls
+   96  mv *.pdb ~/ClassFiles/
+   97  mv *.txt ~/ClassFiles/
+   98  ls
+   99  cd ~/
+  100  cd ClassFiles
+  101  ls
+  102  pwd = /
+  103  pwd
+  104  cd ~/
+  105  cd ../
+  106  cd ./
+  107  pwd
+  108  ls
+  109  man ls
+  110  ls a
+  111  ls G
+  112  ls -a
+  113  ls -G
+  114  ls -t
+  115  ls -r
+  116  ls -lrt
+  117  ls *.txt
+  118  pwd
+  119  cd /
+  120  pwd
+  121  ls
+  122  pwd
+  123  cd ../
+  124  pwd
+  125  cd ../
+  126  ls
+  127  cd ./
+  128  pwd
+  129  cd ~/
+  130  pwd
+  131  mkdir HomePractice
+  132  ls -l
+  133  vi tmp.txt
+  134  mkdir ~/HomePractice/practicefiles
+  135  ls -l ~/HomePractice
+  136  cp ~/tmp.txt ~/HomePractice/
+  137  ls -l ~/HomePractice
+  138  cd ~/HomePractice/practicefiles 
+  139  ls -l
+  140  mv ~/HomePractice/tmp.txt ~/HomePractice/practicefiles/
+  141  ls -l ~/HomePractice/practicefiles 
+  142  clear
+  143  pwd
+  144  cd ~/
+  145  pwd
+  146  mv ~/replicas ~/ClassFiles/
+  147  ls ~/ClassFiles
+  148  cd ~/ClassFiles/replicas
+  149  pwd
+  150  ls
+  151  sudo apt update
+  152  sudo apt install git build-essential autotools python r-base
+  153  sudo apt-get install git -y
+  154  ls -a
+  155  pwd
+  156  cd /
+  157  pwd
+  158  cd ~/
+  159  pwd
+  160  ls
+  161  mv ~/tmp.txt /Users/tinne/HomePractice
+  162  mv ~/tmp.txt /Users/tinne/ClassFiles
+  163  mv ~/tmp.txt /Users/tinne/
+  164  pwd
+  165  ls
+  166  cd /
+  167  pwd
+  168  ls
+  169  pwd
+  170  ./
+  171  pwd
+  172  cd ~/
+  173  pwd
+  174  ls
+  175  ls -l/ClassFiles
+  176  ls -l /ClassFiles
+  177  ls -l /HomePractice
+  178  cd ~/
+  179  pwd
+  180  ls
+  181  ls -l
+  182  rm tmp?.txt
+  183  ls
+  184  ls -l
+  185  pwd
+  186  ls *.pdb
+  187  ls *.txt
+  188  pwd
+  189  cd ~/home/tinne/Downloads
+  190  cd ~/home/tinne
+  191  pwd
+  192  wc cubane.pdb
+  193  pwd
+  194  ls
+  195  cd ClassFiles
+  196  pwd
+  197  ls
+  198  wc *.pdb
+  199  wc *.pdb > lengths.txt
+  200  ls
+  201  cat lengths.txt
+  202  wc LittleWomen.txt 
+  203  sort -n lengths.txt 
+  204  sort -n lengths.txt > sorted-lengths.txt
+  205  cat sorted-lengths.txt
+  206  touch sorted-lengths.txt
+  207  ls 
+  208  ls -lrt
+  209  sort -n lengths.txt > sorted-lengths.txt
+  210  ls -lrt
+  211  sort -n lengths.txt >> sorted-lengths.txt
+  212  ls -lrt
+  213  cat sorted-lengths.txt
+  214  sort -n lengths.txt | head -n 1
+  215  wc -w *.pdb | sort -n | head -n 1
+  216  cat haiku.txt
+  217  grep the haiku.txt
+  218  egrep 'the|is' haiku.txt
+  219  find lengths.txt
+  220  pwd
+  221  cd ~/
+  222  pwd
+  223  cd ClassFiles
+  224  pwd
+  225  cd ~/
+  226  pwd
+  227  git config --global user.name "MakennaTardif"
+  228  git config --global user.email "mt18qu@brocku.ca"
+  229  git config --global --edit
+  230  pwd
+  231  ls -a
+  232  notepad.gitconfig
+  233  vi .gitconfig
+  234  git config --global init.defaultBranch main
+  235  vi .gitconfig
+  236  pwd
+  237  ls
+  238  cd ClassFiles
+  239  pwd
+  240  mkdir recipes
+  241  ls
+  242  cd recipes
+  243  git init
+  244  ls -a
+  245  ls -all
+  246  cd .git
+  247  ls
+  248  git status
+  249  cd ../
+  250  git status
+  251  touch guacamole.md
+  252  vi guacamole.md
+  253  git status
+  254  git add guacamole.md
+  255  git status
+  256  git commit -m "Create initial guacamole recipe"
+  257  git status
+  258  vim guacamole.md
+  259  git status
+  260  git diff
+  261  git add guacamole.md
+  262  git status
+  263  git diff
+  264  git diff --staged
+  265  git commit -m "added some ingredients"
+  266  vim guacamole.md
+  267  git diff
+  268  git commit -m "more avocados"
+  269  git log
+  270  git log --oneline
+  271  mkdir HealthyMeals
+  272  git diff
+  273  git add guacamole.md
+  274  git commit -m "more avocados"
+  275  git status
+  276  git diff
+  277  cd HealthyMeals/
+  278  touch tofuDogs.d
+  279  cd ../
+  280  git diff
+  281  git add HealthyMeals/tofuDogs.md
+  282  cd HealthyMeals
+  283  touch tofuDogs.md
+  284  cd ../
+  285  git diff
+  286  git status
+  287  git add HealhyMeals/tofuDogs.md
+  288  vim guacamole.md
+  289  git diff HEAD guacamole.md
+  290  git log --oneline
+  291  git diff c1c5f27 guacamole.md
+  292  git add guacamole.md
+  293  git commit -m "just making sure"
+  294  git log --oneline
+  295  git restore guacamole.md
+  296  vi guacamole.md
+  297  git diff
+  298  git restore guacamole.md
+  299  vim guacamole.md
+  300  git log --oneline
+  301  git restore -s c1c5f27 guacamole.md
+  302  vi guacamole.md
+  303  git log --online
+  304  git log --oneline
+  305  ls
+  306  touch tmp.txt
+  307  git status
+  308  touch .gitignore
+  309  vi .gitignore
+  310  git status
+  311  cd ~/
+  312  pwd
+  313  ls -a
+  314  ssh-keygen -t ed25519 -C "mt18qu@brocku.ca"
+  315  ls -a
+  316  vi GitHubKey.pub
+  317  git remote add origin git@github:MakennaTardif/recipes.git
+  318  cd recipes
+  319  pwd
+  320  cd ClassFiles/recipes
+  321  git remote add origin git@github:MakennaTardif/recipes.git
+  322  git push origin main
+  323  git remote add origin git@github.com:MakennaTardif/recipes.git
+  324  git push origin main
+  325  cd ~/
+  326  cd ClassFiles/recipes
+  327  git remote add origin https://github.com/MakennaTardif/recipes.git
+  328  git push origin main
+  329  cd ~/
+  330  pwd
+  331  ls -a
+  332  cd ClassFiles/recipes
+  333  ls -a
+  334  cd ~/
+  335  pwd
+  336  ssh-keygen -t ed25519 -C "mt18qu@brocku.ca"
+  337  ls -a
+  338  cd .ssh
+  339  ls -a
+  340  vi id_ed25519.pub
+  341  cd ~/
+  342  cd ClassFiles/recipes
+  343  git push origin main
+  344  cd ~/.ssh
+  345  ls
+  346  ls -a
+  347  vi id_ed25519.pub 
+  348  cd ../ClassFiles/recipes/
+  349  git push origin main
+  350  cd ../../
+  351  cd ClassFiles/recipes/
+  352  ls 
+  353  ls -all
+  354  cd ~/
+  355  vi .gitconfig 
+  356  git remote add origin git@github.com:MakennaTardif/recipes.git
+  357  cd ClassFiles/recipes/
+  358  git remote add origin git@github.com:MakennaTardif/recipes.git
+  359  git push origin main
+  360  ping github.com
+  361  sudo vi /etc/resolv.conf
+  362  cd ~/
+  363  ls -alrt
+  364  sudo vi /etc/resolv.conf
+  365  ssh -T github.com
+  366  ls
+  367  rm GitHubKey*
+  368  ls
+  369  ls -all
+  370  cd .ssh/
+  371  ls
+  372  ls -all
+  373  vi id_ed25519.pub 
+  374  cd ../ClassFiles/recipes/
+  375  git push origin main
+  376  ssh-keygen -t ed25519 "mt18qu@brocku.ca"
+  377  ssh-keygen -t ed25519 -C "mt18qu@brocku.ca"
+  378  vi ~/.ssh/id_ed25519.pub 
+  379  git push origin main
+  380  ls -a
+  381  cd .git
+  382  ls
+  383  vi config 
+  384  git remote add origin git@github.com:MakennaTardif/recipes.git
+  385  git push origin main
+  386  vi ~/.gitconfig 
+  387  cd ../
+  388  git push origin main
+  389  vi .git/config 
+  390  git push origin main
+  391  git remote add origin https://github.com/MakennaTardif/recipes.git
+  392  git branch -M main
+  393  git push origin  main
+  394  pwd
+  395  cd ClassFiles
+  396  pwd
+  397  cd recipes
+  398  git init
+  399  ls -a
+  400  git status
+  401  git remote add origin https://github.com/MakennaTardif/recipes.git
+  402  git remote -v 
+  403  git add .
+  404  git commit -m "Initial commit"
+  405  git branch -M main
+  406  git push -u origin main
+  407  # Remove any saved GitHub creds (file may or may not exist)
+  408  sed -i '/github\.com/d' ~/.git-credentials 2>/dev/null || true
+  409  git config --global --unset credential.helper 2>/dev/null || true
+  410  # Now push again; enter username + PAT when prompted
+  411  git push -u origin main
+  412  git config --global credential.helper store 
+  413  git remote -v 
+  414  pwd
+  415  cd replicas
+  416  cd ClassFiles/recipes
+  417  cd ..
+  418  cd ../..
+  419  pwd
+  420  cd ClassFiles
+  421  cd /ClassFiles
+  422  cd ClassFiles
+  423  cd ClassFiles/
+  424  pwd
+  425  cd /ClassFiles
+  426  cd ..
+  427  pwd
+  428  cd home
+  429  cd recipes
+  430  cd ~/ClassFiles
+  431  cd ~/recipes
+  432  cd ~/ClassFiles/recipes/
+  433  pwd
+  434  cd home
+  435  cd ~/home/
+  436  cd ~/tinne/
+  437  cd ~/home/tinne/
+  438  pwd
+  439  cd
+  440  pwd
+  441  cd ClassFiles
+  442  cd recipes
+  443  cd ~
+  444  cd ~/ClassFiles
+  445  mkdir ProblemSets
+  446  cd ProblemSets
+  447  git init
+  448  git branch -M main
+  449  git remote add origin https://github.com/MakennaTardif/ProblemSets.git 
+  450  git remote -v 
+  451  touch ProblemSet1.md 
+  452  ls -a
+  453  ls -rt
+  454  ls -lrt
+  455  ls -r
+  456  man ls
+  457  ls -lr
+  458  ls -lrt
+  459  ls -rt
+  460  cd ClassFiles
+  461  cd ~ClassFiles
+  462  cd .
+  463  pwd
+  464  ls -rt
+  465  man ls
+  466  ls -lrt
+  467  man ls
+  468  cd ~/
+  469  pwd
+  470  cd ClassFiles
+  471  cd ProblemSets
+  472  cd ..
+  473  cd ClassFiles/ProblemSets
+  474  cd home/tinne
+  475  cd /home/tinne
+  476  cd ClassFiles/ProblemSets
+  477  cd ~/
+  478  cd ClassFiles/ProblemSets
+  479  cd ...
+  480  cd .
+  481  cd ..
+  482  man tee
+  483  man ls
+  484  clear
+  485  pwd
+  486  cd ClassFiles/ProblemSets
+  487  ls -la
+  488* history |
+  489  cat filelist.txt 
+  490  ls -a
+  491  vim filelist.txt
+  492* 
+  493  exit
+  494  pwd
+  495  ls -a
+  496  history
+  497  history | tee history_in_screen.txt

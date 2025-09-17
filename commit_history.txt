@@ -1,0 +1,10 @@
+  450  git remote -v 
+  517  git clone https://github.com/MakennaTardif/PSYC-5P02-2025.git 
+  530  git add .
+  531  git commit -m "Add Problem Set 1 files for Q1–Q7"
+  532  git push origin main
+  533  git remote -v 
+  534  git push origin main
+  535  git remote -v
+  536  git push origin main
+  537  history | grep git | tail -n 10 > commit_history.txt 
