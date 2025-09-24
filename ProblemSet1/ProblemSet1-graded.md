@@ -114,13 +114,19 @@ The task I am wanting to perform here is to list all the files in my current dir
 
 After running the above command, I can see that these two files are in fact different. First of all, the `.txt` file I created inside the screen only shows the commands run within that particular screen session. However, the `.txt` file I created after I had exited the screens shows my main shell history, which includes both the screen and exit command. Thus, they differ because using the `screen` command actually creates a separate subshell with its own command history.
 
+:memo: **Good! 3/3**
+
 ### Question 6: Introduction to GitHub
 -------------------
 ![This is a picture of my screenshot](screenshot.png)
 
+:memo: **3/3**
+
 ### Question 7: Forking the Class Repository
 ------------------
 ![This is a picture of my screenshot](forkimage.png)
+
+:memo: **3/3**
 
 ### Question 8: 
 ------------------
@@ -133,4 +139,8 @@ I also added you (i.e., SMEmrich) as a collaborator under the repository setting
 > `history | grep git | tail -n 10 > commit_history.txt`
 
 Finally, I committed both `commit_history.txt` and my completed markdown file (`ProblemSet1.md`) to my GitHub repository.
+
+:memo: **3/3**
+
+:memo: **Total: 26/26**
 
